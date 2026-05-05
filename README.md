@@ -21,3 +21,11 @@ git clone [https://github.com/demir78/ssl-guard-enterprise.git](https://github.c
 cd ssl-guard-enterprise
 docker-compose up -d --build
 # ssl-guard-enterprise
+
+### 🔐 Varsayılan Giriş Bilgileri
+Sistem başarıyla ayağa kalktıktan sonra tarayıcınızdan `http://SUNUCU_IP:5000` adresine gidin.
+
+* **Kullanıcı Adı:** `admin`
+* **Şifre:** `admin123`
+
+*(⚠️ Güvenliğiniz için sisteme ilk girişinizden sonra "Ayarlar" sekmesinden yönetici şifrenizi mutlaka değiştirin).*
