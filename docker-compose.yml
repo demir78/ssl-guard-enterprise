@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ssl_guard:
+    build: .
+    container_name: ssl_guard_enterprise
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ=Europe/Istanbul

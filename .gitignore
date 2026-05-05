@@ -1,0 +1,11 @@
+# Veritabanı ve Önbellek Dosyaları (Kesinlikle yüklenmemeli)
+data/
+*.db
+*.sqlite3
+
+# Python Artıkları
+__pycache__/
+*.pyc
+
+# İşletim Sistemi Artıkları
+.DS_Store
