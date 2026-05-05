@@ -3,7 +3,7 @@
 SSL Guard Enterprise, kurumların IT altyapılarındaki SSL sertifikalarının ve Kök Alan Adı (WHOIS) tescil sürelerinin takibini otomatize eden, Python ve Docker tabanlı bir SOC (Security Operations Center) aracıdır.
 
 ## 🌟 Öne Çıkan Özellikler
-
+* **Çift Katmanlı Takip:** Subdomainlerin SSL bitiş sürelerini ve Kök Domainlerin (Ana Alan Adlarının) tescil bitiş tarihlerini (WHOIS) bağımsız olarak 7/24 denetler.
 * **4 Kademeli Hibrit WHOIS Motoru:** Standart WHOIS, RDAP, OSINT API'leri ve özellikle `.tr` (Türkiye) uzantılı alan adları için **TRABIS Native Socket Bypass** desteği.
 * **Akıllı SSL/SNI Doğrulaması:** WAF, Cloudflare veya Load Balancer arkasındaki sistemler için IPv4 ve Strict SNI zorlaması. İsim uyuşmazlığı ve Self-Signed teşhisi.
 * **Çoklu OSINT Keşfi:** Verilen kök domain altındaki subdomainleri Google Dorking, crt.sh, HackerTarget ve AlienVault OTX üzerinden bularak otomatik envantere ekler.
